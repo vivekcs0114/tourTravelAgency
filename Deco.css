@@ -1,0 +1,51 @@
+﻿
+    .Text
+	{
+		border:1px solid #666;	
+		border-radius:6px;
+		width:150px;
+		height:25px;
+		font-family:Arial;
+		padding-left:6px;
+	}
+h3
+	{
+		margin:0;
+		font-family:Arial;
+		font-weight:lighter;
+		font-size:20px;
+		color:#333;
+	}
+.Table
+	{
+		width:950px;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:0;
+		}
+.PTable
+	{
+		width:500px;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:0;
+		}
+
+
+.Stable
+	{
+		width:280px;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:21px;
+		margin-bottom:21px;
+       
+	}
+#row
+ {
+    background-color:#333;
+
+}

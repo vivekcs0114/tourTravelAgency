@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="Deco.css" rel="stylesheet" type="text/css" />
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        
+        </style>
+</head>
+<body bgcolor="gray">
+    <form id="form1" runat="server">
+    <div>
+        
+        <table  align="center" bgcolor="pink" class="Table">
+            <tr>
+                <td >
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/Resource/Logo.gif" CssClass="auto-style2" Width="100%" Height="85px" />
+                </td>
+            </tr>
+            <tr>
+                <td >
+                <marquee  behavior="alternate"><h3>Welcome to my site!!!!</h3></marquee>
+                </td>
+            
+            </tr>
+            <tr>
+               
+                <td>
+                    <div id="row">
+                    <asp:Button ID="Button1" runat="server" Text="Home" CssClass="Text" OnClick="Button1_Click" Width="70px" />
+&nbsp;
+                    <asp:Button ID="Button2" runat="server" Text="Tour" CssClass="Text" OnClick="Button2_Click" Width="65px" />
+&nbsp;<asp:Button ID="Button4" runat="server" Text="Agency" CssClass="Text" OnClick="Button4_Click" Width="65px" />
+&nbsp;
+                    <asp:Button ID="Button6" runat="server" Text="Login" CssClass="Text" OnClick="Button6_Click" Width="66px" />
+                </div>
+                </td>
+                   
+            </tr>
+            
+            <tr>
+                <td><asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+
+        </asp:ContentPlaceHolder></td>
+            </tr>
+            <tr>
+                <td >
+                    <center>copyright@V<sup>2</sup>A</center></td>
+            </tr>
+        </table>
+        
+    </div>
+    </form>
+</body>
+</html>
